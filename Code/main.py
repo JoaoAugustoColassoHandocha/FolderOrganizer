@@ -76,7 +76,10 @@ try:
             
             case '1':
                 
-                ...
+                caminho_pasta = input('Caminho da pasta: ')
+                os.system('cls' if os.name == 'nt' else 'clear')
+                
+                
                 
             case '2':
                 
