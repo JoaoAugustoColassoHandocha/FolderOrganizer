@@ -29,7 +29,7 @@ try:
         espaco = (largura - len(prompt)) // 2
         return input(' ' * max(espaco, 0) + prompt)
 
-    def barra_carregamento(total=30, atraso=0.2):
+    def barra_carregamento(total = 30, atraso = 0.2):
             
         print('\n')
             
