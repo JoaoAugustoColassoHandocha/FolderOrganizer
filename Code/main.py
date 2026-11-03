@@ -63,6 +63,8 @@ try:
         
         opcao = input('Opção (Somente números): ')
         
+        os.system('cls' if os.name == 'nt' else 'clear')
+        
         match opcao:
             
             case '1':
