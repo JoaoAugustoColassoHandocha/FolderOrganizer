@@ -80,7 +80,7 @@ try:
                 folder_path = input('Caminho da pasta: ')
                 os.system('cls' if os.name == 'nt' else 'clear')
                 
-                destination_folder = Path.home() / f'{folder_path}'
+                destination_folder = Path.home() / folder_path
                 
                 folders = {
                     
