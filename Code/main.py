@@ -83,7 +83,7 @@ try:
                 
                 folders = {
                     
-                    'Imagens': ['.jpg', '.jpeg', '.png', '.webp', '.gif', '.tiff', '.tif', '.bmp', '.raw', '.svg', '.ai', '.eps', '.cdr'],
+                    'Imagens': ['.jpg', '.jpeg', '.png', '.webp', '.gif', '.tiff', '.tif', '.bmp', '.raw', '.svg', '.ai', '.eps', '.cdr', '.ico'],
                     
                     'Documentos': ['.pdf', '.txt', '.doc', '.docx', '.odt', '.rtf', '.xlsx', '.xls', '.pptx', '.htm', '.html', 'dotx', '.docm', '.dotm'],
                     
@@ -91,7 +91,7 @@ try:
                     
                     'Audio': ['.wav', '.aiff', '.pcm', '.flac', '.m4a', '.alac', '.mp3', '.aac', '.wma'],
                     
-                    'Executaveis': []
+                    'Executaveis': ['.exe', '.com', '.bat', '.cmd', '.msi', '.sh', '.app', '.dmg'],
                     
                 }
                 
