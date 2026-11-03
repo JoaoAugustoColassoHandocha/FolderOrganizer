@@ -29,18 +29,18 @@ try:
         space = (width - len(prompt)) // 2
         return input(' ' * max(space, 0) + prompt)
 
-    def loading_bar(total = 30, atraso = 0.2):
+    def loading_bar(total = 30, delay = 0.2):
             
         print('\n')
             
         for i in range(total + 1):
-            porcentagem = int((i / total) * 100)
-            barra = '█' * i + '-' * (total - i)
-            texto = f'Carregando: |{barra}| {porcentagem}%'
-            largura = shutil.get_terminal_size().columns
-            sys.stdout.write('\r' + texto.center(largura - 1))
+            percentage = int((i / total) * 100)
+            bar = '█' * i + '-' * (total - i)
+            text = f'Carregando: |{bar}| {percentage}%'
+            width = shutil.get_terminal_size().columns
+            sys.stdout.write('\r' + text.center(width - 1))
             sys.stdout.flush()
-            time.sleep(atraso)
+            time.sleep(delay)
             
     os.system('cls' if os.name == 'nt' else 'clear')
         
@@ -97,7 +97,7 @@ try:
                 
                 for name in folders:
                     
-                    ()
+                    (destination_folder / name).mkdir(exist_ok = True)
                 
             case '2':
                 
