@@ -1,6 +1,6 @@
 # FolderOrganizer 🗂️
 
-Organizador de arquivos para terminal, escrito em Python. Ele varre uma pasta e move cada arquivo para uma subpasta de acordo com a extensão, deixando seus downloads e diretórios bagunçados em ordem em poucos segundos.
+A terminal-based file organizer written in Python. It scans a folder and moves each file into a subfolder based on its extension, bringing order to your cluttered downloads or other directories in just a few seconds.
 
 ## Funcionalidades ✨
 
