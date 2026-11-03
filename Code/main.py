@@ -79,7 +79,7 @@ try:
                 caminho_pasta = input('Caminho da pasta: ')
                 os.system('cls' if os.name == 'nt' else 'clear')
                 
-                
+                pasta = Path.home() / f'{caminho_pasta}'
                 
             case '2':
                 
