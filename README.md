@@ -2,7 +2,8 @@
 
 Organizador de arquivos para terminal, escrito em Python. Ele varre uma pasta e move cada arquivo para uma subpasta de acordo com a extensão, deixando seus downloads e diretórios bagunçados em ordem em poucos segundos.
 
-✨ Funcionalidades
+# Funcionalidades ✨
+
 Interface de terminal centralizada, com menu interativo e barra de carregamento animada
 Organização automática por tipo de arquivo
 Criação automática das subpastas necessárias
