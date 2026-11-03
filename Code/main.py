@@ -92,7 +92,7 @@ try:
                     
                     'Audio': ['.wav', '.aiff', '.pcm', '.flac', '.m4a', '.alac', '.mp3', '.aac', '.wma'],
                     
-                    'Executaveis': ['.exe', '.com', '.bat', '.cmd', '.msi', '.sh', '.app', '.dmg'],
+                    'Executaveis': ['.exe', '.com', '.bat', '.cmd', '.msi', '.sh', '.app', '.dmg', '.msix'],
                     
                     'Pastas_ZIP': ['.zip'],
                     
