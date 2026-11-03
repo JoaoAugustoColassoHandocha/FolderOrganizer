@@ -53,6 +53,8 @@ try:
     os.system('cls' if os.name == 'nt' else 'clear')
     
     def main(op = 0):
+        
+        os.system('cls' if os.name == 'nt' else 'clear')
     
         print_centered('\n------------------------------')
         print_centered('FolderOrganizer')
@@ -115,8 +117,7 @@ try:
                 
                 os.system('cls' if os.name == 'nt' else 'clear')
                 
-                print_centered('\nOrganização dos arquivos feito com sucesso!!!')
-                
+                print_centered('\nOrganização dos arquivos feito com sucesso!!!\n')
                 
             case '2':
                 
