@@ -10,3 +10,5 @@ A terminal-based file organizer written in Python. It scans a folder and moves e
 * Overwrite protection: if a file with the same name already exists at the destination, it is ignored;
 * Error handling with a user-friendly message;
 * Compatible with Windows, Linux, and macOS (screen clearing via cls/clear).
+
+## Categories
