@@ -81,7 +81,7 @@ try:
             case '2':
                 
                 print_centralizado('\nSaindo...\n')
-                input_centralizado('Clique qualquer tecla para continuar...')
+                barra_carregamento()
                 os.system('cls' if os.name == 'nt' else 'clear')
                 sys.exit()
         
