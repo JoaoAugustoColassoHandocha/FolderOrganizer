@@ -91,6 +91,8 @@ try:
                     
                     'Audio': ['.wav', '.aiff', '.pcm', '.flac', '.m4a', '.alac', '.mp3', '.aac', '.wma'],
                     
+                    'Executaveis': []
+                    
                 }
                 
             case '2':
