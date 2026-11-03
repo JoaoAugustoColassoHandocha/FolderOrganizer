@@ -13,21 +13,21 @@ try:
 
     def print_centered(*args, **kwargs):
         
-        largura = shutil.get_terminal_size().columns
-        texto = ' '.join(str(a) for a in args)
+        width = shutil.get_terminal_size().columns
+        text = ' '.join(str(a) for a in args)
         
-        for linha in texto.splitlines() or ['']:
+        for line in text.splitlines() or ['']:
                 
-            _print_original(linha.center(largura), **kwargs)
+            _print_original(line.center(width), **kwargs)
         
     def input_centered(prompt = ''):
             
         print('\n')
         
-        largura = shutil.get_terminal_size().columns
-        # Move o prompt para o centro horizontal do terminal
-        espaco = (largura - len(prompt)) // 2
-        return input(' ' * max(espaco, 0) + prompt)
+        width = shutil.get_terminal_size().columns
+        # Moves the prompt to the horizontal center of the terminal
+        space = (width - len(prompt)) // 2
+        return input(' ' * max(space, 0) + prompt)
 
     def barra_carregamento(total = 30, atraso = 0.2):
             
