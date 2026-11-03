@@ -94,6 +94,8 @@ try:
                     
                     'Executaveis': ['.exe', '.com', '.bat', '.cmd', '.msi', '.sh', '.app', '.dmg'],
                     
+                    'Pastas_ZIP': ['.zip'],
+                    
                 }
                 
                 for name in folders:
