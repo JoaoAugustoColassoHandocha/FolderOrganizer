@@ -72,10 +72,6 @@ try:
             case '2':
                 
                 ...
-                
-            case _:
-                
-                ...
         
         if opcao != '1' or opcao != '2':
 
