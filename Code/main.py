@@ -29,7 +29,7 @@ try:
         space = (width - len(prompt)) // 2
         return input(' ' * max(space, 0) + prompt)
 
-    def barra_carregamento(total = 30, atraso = 0.2):
+    def loading_bar(total = 30, atraso = 0.2):
             
         print('\n')
             
@@ -48,7 +48,7 @@ try:
     print_centered('FolderOrganizer')
     print_centered('------------------------------\n')
         
-    barra_carregamento()
+    loading_bar()
             
     os.system('cls' if os.name == 'nt' else 'clear')
     
@@ -102,7 +102,7 @@ try:
             case '2':
                 
                 print_centered('\nSaindo...\n')
-                barra_carregamento()
+                loading_bar()
                 os.system('cls' if os.name == 'nt' else 'clear')
                 sys.exit()
         
