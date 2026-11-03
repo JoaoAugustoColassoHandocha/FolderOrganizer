@@ -62,7 +62,7 @@ try:
         print_centered('2 - Sair')
         print_centered('------------------------------\n')
         
-        option = input_centered('\nOpção (Somente números): ')
+        option = input('\nOpção (Somente números): ')
         
         os.system('cls' if os.name == 'nt' else 'clear')
         
