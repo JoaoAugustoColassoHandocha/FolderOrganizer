@@ -32,3 +32,9 @@ ISO | .iso, .torrent, .vbo-extpack
 <br>
 
 ## Requirements 🚀
+
+Python 3.15 or higher, as the code uses lazy imports (PEP 810) and match/case.
+
+<br>
+
+## 
