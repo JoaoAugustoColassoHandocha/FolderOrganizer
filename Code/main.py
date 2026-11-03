@@ -96,6 +96,8 @@ try:
                     
                     'Pastas_ZIP': ['.zip'],
                     
+                    'ISO': ['.iso', '.torrent', '.vbo-extpack'],
+                    
                 }
                 
                 for name in folders:
