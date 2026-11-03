@@ -13,3 +13,6 @@ A terminal-based file organizer written in Python. It scans a folder and moves e
 
 ## Categories
 
+Folder | Extensions
+:------: | :----------:
+Images | .jpg, .jpeg, .png, .webp, .gif, .tiff, .bmp, .raw, .svg, .ai, .eps, .cdr, .ico
