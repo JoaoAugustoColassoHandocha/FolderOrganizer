@@ -75,3 +75,29 @@ python folder_organizer.py
 * Python 3
 
 * Standard libraries: pathlib, shutil, os, sys, time, builtins
+
+<br>
+
+## Notes ⚠️
+
+* Files with extensions not listed remain in the original folder.
+
+* Existing subfolders are left untouched; only loose files located at the root of the chosen folder are affected.
+
+* The path is always resolved relative to Path.home().
+
+* It is recommended to test this in a separate test folder first, as the operation moves the files.
+
+<br>
+
+## Ideas for the future 📄
+
+* Support for more extensions (.7z, .rar, .csv, .json, etc.);
+
+* Option to undo the organization process;
+
+* Preview mode (dry run);
+
+* Support for absolute paths;
+
+* Rename duplicate files instead of ignoring them.
