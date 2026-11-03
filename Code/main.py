@@ -61,15 +61,15 @@ try:
         print_centralizado('1 - Organizar')
         print_centralizado('2 - Sair')
         
-        opcao = int(input('Opção (Somente números): '))
+        opcao = input('Opção (Somente números): ')
         
         match opcao:
             
-            case 1:
+            case '1':
                 
                 ...
                 
-            case 2:
+            case '2':
                 
                 ...
                 
@@ -77,7 +77,7 @@ try:
                 
                 ...
         
-        if opcao != 1 or opcao != 2:
+        if opcao != '1' or opcao != '2':
 
             print('\n[AVISO] Opção inválida, digite novamente\n')
             input('Clique qualquer tecla para continuar...')
