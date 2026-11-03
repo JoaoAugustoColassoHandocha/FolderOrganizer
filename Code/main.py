@@ -62,7 +62,7 @@ try:
         print_centered('2 - Sair')
         print_centered('------------------------------\n')
         
-        option = input('\nOpção (Somente números): ')
+        option = input_centered('\nOpção (Somente números): ')
         
         os.system('cls' if os.name == 'nt' else 'clear')
         
@@ -77,7 +77,7 @@ try:
             
             case '1':
                 
-                folder_path = input('Caminho da pasta: ')
+                folder_path = input_centered('\nCaminho da pasta: ')
                 os.system('cls' if os.name == 'nt' else 'clear')
                 
                 destination_folder = Path.home() / folder_path
