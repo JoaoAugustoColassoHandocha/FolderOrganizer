@@ -106,11 +106,13 @@ try:
                     
                     for name, exts in folders.items():
                         
-                        target = destination_folder / name / file.name
+                        if file.is_file() and ext in exts:
                         
-                        if not target.exists():
-                            
-                            shutil.move(file, target)
+                            target = destination_folder / name / file.name
+                        
+                            if not target.exists():
+                                
+                                shutil.move(file, target)
                             
                 loading_bar()
                 
