@@ -52,9 +52,12 @@ try:
             
     os.system('cls' if os.name == 'nt' else 'clear')
     
-    print_centralizado('\n------------------------------')
-    print_centralizado('FolderOrganizer')
-    print_centralizado('------------------------------\n')
+    def main(op = 0):
+    
+        print_centralizado('\n------------------------------')
+        print_centralizado('FolderOrganizer')
+        print_centralizado('------------------------------\n')
+        
     
     
 except Exception as error:
