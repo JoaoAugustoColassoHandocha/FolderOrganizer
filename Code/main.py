@@ -68,8 +68,8 @@ try:
         
         if (option != '1') and (option != '2'):
 
-            print('\n[AVISO] Opção inválida, digite novamente\n')
-            input('Clique qualquer tecla para continuar...')
+            print_centered('\n[AVISO] Opção inválida, digite novamente\n')
+            input_centered('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
             main()
         
