@@ -60,6 +60,7 @@ try:
         
         print_centralizado('\n1 - Organizar')
         print_centralizado('2 - Sair\n')
+        print_centralizado('------------------------------\n')
         
         opcao = input('\nOpção (Somente números): ')
         
