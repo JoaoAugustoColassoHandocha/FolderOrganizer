@@ -95,6 +95,8 @@ try:
                     
                 }
                 
+                
+                
             case '2':
                 
                 print_centralizado('\nSaindo...\n')
