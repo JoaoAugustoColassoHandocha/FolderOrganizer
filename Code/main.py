@@ -65,7 +65,7 @@ try:
         
         os.system('cls' if os.name == 'nt' else 'clear')
         
-        if opcao != '1' or opcao != '2':
+        if (opcao != '1') or (opcao != '2'):
 
             print('\n[AVISO] Opção inválida, digite novamente\n')
             input('Clique qualquer tecla para continuar...')
