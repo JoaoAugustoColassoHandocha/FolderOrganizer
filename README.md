@@ -12,3 +12,4 @@ A terminal-based file organizer written in Python. It scans a folder and moves e
 * Compatible with Windows, Linux, and macOS (screen clearing via cls/clear).
 
 ## Categories
+
