@@ -61,7 +61,7 @@ try:
         print_centralizado('\n1 - Organizar')
         print_centralizado('2 - Sair\n')
         
-        opcao = input('Opção (Somente números): ')
+        opcao = input('\nOpção (Somente números): ')
         
         os.system('cls' if os.name == 'nt' else 'clear')
         
