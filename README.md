@@ -4,9 +4,9 @@ A terminal-based file organizer written in Python. It scans a folder and moves e
 
 ## Features ✨
 
-* Interface de terminal centralizada, com menu interativo e barra de carregamento animada
-* Organização automática por tipo de arquivo
-* Criação automática das subpastas necessárias
-* Proteção contra sobrescrita: se já existir um arquivo com o mesmo nome no destino, ele é ignorado
-* Tratamento de erros com mensagem amigável
-* Compatível com Windows, Linux e macOS (limpeza de tela via cls/clear)
+* Centralized terminal interface, featuring an interactive menu and an animated loading bar;
+* Automatic organization by file type;
+* Automatic creation of the necessary subfolders;
+* Overwrite protection: if a file with the same name already exists at the destination, it is ignored;
+* Error handling with a user-friendly message;
+* Compatible with Windows, Linux, and macOS (screen clearing via cls/clear).
