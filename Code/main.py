@@ -110,6 +110,13 @@ try:
                         if not target.exists():
                             
                             shutil.move(file, target)
+                            
+                loading_bar()
+                
+                os.system('cls' if os.name == 'nt' else 'clear')
+                
+                print_centered('\nOrganização dos arquivos feito com sucesso!!!')
+                
                 
             case '2':
                 
