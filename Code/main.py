@@ -77,7 +77,7 @@ try:
             
             case '1':
                 
-                folder_path = input_centered('\nCaminho da pasta: ')
+                folder_path = input('\nCaminho da pasta: ')
                 os.system('cls' if os.name == 'nt' else 'clear')
                 
                 destination_folder = Path.home() / folder_path
