@@ -84,8 +84,12 @@ try:
                 folders = {
                     
                     'Imagens': ['.jpg', '.jpeg', '.png', '.webp', '.gif', '.tiff', '.tif', '.bmp', '.raw', '.svg', '.ai', '.eps', '.cdr'],
+                    
                     'Documentos': ['.pdf', '.txt', '.doc', '.docx', '.odt', '.rtf', '.xlsx', '.xls', '.pptx', '.htm', '.html', 'dotx', '.docm', '.dotm'],
-                    'Vídeos': []
+                    
+                    'Videos': ['.mp4', '.mov', '.avi', '.mkv', '.webm', '.avchd', '.wmv', '.flv', '.ogg', '.mpg'],
+                    
+                    'Audio': ['.wav', '.aiff', '.pcm', '.flac', '.m4a', '.alac', '.mp3', '.aac', '.wma'],
                     
                 }
                 
