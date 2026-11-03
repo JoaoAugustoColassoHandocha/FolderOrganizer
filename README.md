@@ -39,8 +39,8 @@ Python 3.15 or higher, as the code uses lazy imports (PEP 810) and match/case.
 
 ## Execution 🔮
 
-```
+~~~Bash
 git clone https://github.com/seu-usuario/FolderOrganizer.git
 cd FolderOrganizer
 python folder_organizer.py
-```
+~~~
