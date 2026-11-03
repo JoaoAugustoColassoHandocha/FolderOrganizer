@@ -52,6 +52,10 @@ try:
             
     os.system('cls' if os.name == 'nt' else 'clear')
     
+    print_centralizado('\n------------------------------')
+    print_centralizado('FolderOrganizer')
+    print_centralizado('------------------------------\n')
+    
     
 except Exception as error:
     
