@@ -45,7 +45,7 @@ try:
     os.system('cls' if os.name == 'nt' else 'clear')
         
     print_centralizado('\n------------------------------')
-    print_centralizado('Bem Vindo ao SolarisBank')
+    print_centralizado('FolderOrganizer')
     print_centralizado('------------------------------\n')
         
     barra_carregamento()
