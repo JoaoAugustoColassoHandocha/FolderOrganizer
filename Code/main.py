@@ -123,6 +123,9 @@ try:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 
                 print_centered('\nOrganização dos arquivos feito com sucesso!!!\n')
+                input_centered('Clique em qualquer tecla para continuar...')
+                
+                main(op = 0)
                 
             case '2':
                 
