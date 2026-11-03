@@ -63,6 +63,13 @@ try:
         
         op = int(input('Opção (Somente números): '))
         
+        if op != '1' or op != '2':
+
+            print('\n[AVISO] Opção inválida, digite novamente\n')
+            input('Clique qualquer tecla para continuar...')
+            os.system('cls' if os.name == 'nt' else 'clear')
+            main(op = 0)
+        
         match op:
             
             case 1:
