@@ -80,7 +80,10 @@ try:
                 
             case '2':
                 
-                ...
+                print_centralizado('\nSaindo...\n')
+                input_centralizado('Clique qualquer tecla para continuar...')
+                os.system('cls' if os.name == 'nt' else 'clear')
+                sys.exit()
         
     main(op = 0)
     
