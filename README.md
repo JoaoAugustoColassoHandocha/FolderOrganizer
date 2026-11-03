@@ -13,6 +13,15 @@ A terminal-based file organizer written in Python. It scans a folder and moves e
 
 ## Categories
 
+<br>
+
 Folder | Extensions
-:------: | :----------:
-Images | .jpg, .jpeg, .png, .webp, .gif, .tiff, .bmp, .raw, .svg, .ai, .eps, .cdr, .ico
+:------: | :-----------------------:
+Images | .jpg, .jpeg, .png, .webp, .gif, .tiff, .bmp, .raw, .svg, .ai, between others
+Documents | .pdf, .txt, .doc, .docx, .odt, .rtf, .xls, .xlsx, .pptx, .html, between others
+Videos | .mp4, .mov, .avi, .mkv, .webm, .wmv, .flv, .mpg, between others
+Audio | .mp3, .wav, .flac, .m4a, .aac, .wma, between others
+Executables | .exe, .msi, .bat, .cmd, .sh, .app, .dmg, between others
+ZIP_folders | .zip
+ISO | .iso, .torrent, .vbo-extpack
+
