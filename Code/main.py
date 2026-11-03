@@ -20,8 +20,6 @@ try:
                 
             _print_original(linha.center(largura), **kwargs)
         
-    builtins.print = print_centralizado
-        
     def input_centralizado(prompt = ''):
             
         print('\n')
