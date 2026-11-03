@@ -51,7 +51,7 @@ try:
             
     os.system('cls' if os.name == 'nt' else 'clear')
     
-    def main(op = 0):
+    def main():
         
         os.system('cls' if os.name == 'nt' else 'clear')
     
@@ -71,7 +71,7 @@ try:
             print('\n[AVISO] Opção inválida, digite novamente\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
-            main(op = 0)
+            main()
         
         match option:
             
@@ -125,7 +125,7 @@ try:
                 print_centered('\nOrganização dos arquivos feito com sucesso!!!\n')
                 input_centered('Clique em qualquer tecla para continuar...')
                 
-                main(op = 0)
+                main()
                 
             case '2':
                 
@@ -134,7 +134,7 @@ try:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 sys.exit()
         
-    main(op = 0)
+    main()
     
 except Exception as error:
     
