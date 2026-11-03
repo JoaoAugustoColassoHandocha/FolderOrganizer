@@ -65,7 +65,17 @@ try:
         
         match op:
             
-            
+            case 1:
+                
+                ...
+                
+            case 2:
+                
+                ...
+                
+            case _:
+                
+                ...
         
     main(op = 0)
     
