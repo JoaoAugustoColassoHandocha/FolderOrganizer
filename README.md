@@ -31,4 +31,4 @@ ISO | .iso, .torrent, .vbo-extpack
 
 <br>
 
-## Requirements
+## Requirements 🚀
