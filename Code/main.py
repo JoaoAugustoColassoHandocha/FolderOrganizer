@@ -58,7 +58,14 @@ try:
         print_centralizado('FolderOrganizer')
         print_centralizado('------------------------------\n')
         
+        print_centralizado('1 - Organizar')
+        print_centralizado('2 - Sair')
         
+        op = int(input('Opção (Somente números): '))
+        
+        match op:
+            
+            
         
     main(op = 0)
     
