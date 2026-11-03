@@ -44,8 +44,6 @@ try:
             sys.stdout.flush()
             time.sleep(atraso)
     
-    print('teste')
-    
     
 except Exception as error:
     
