@@ -11,7 +11,7 @@ try:
     
     _print_original = builtins.print
 
-    def print_centralizado(*args, **kwargs):
+    def print_centered(*args, **kwargs):
         
         largura = shutil.get_terminal_size().columns
         texto = ' '.join(str(a) for a in args)
@@ -20,7 +20,7 @@ try:
                 
             _print_original(linha.center(largura), **kwargs)
         
-    def input_centralizado(prompt = ''):
+    def input_centered(prompt = ''):
             
         print('\n')
         
@@ -44,9 +44,9 @@ try:
             
     os.system('cls' if os.name == 'nt' else 'clear')
         
-    print_centralizado('\n------------------------------')
-    print_centralizado('FolderOrganizer')
-    print_centralizado('------------------------------\n')
+    print_centered('\n------------------------------')
+    print_centered('FolderOrganizer')
+    print_centered('------------------------------\n')
         
     barra_carregamento()
             
@@ -54,32 +54,32 @@ try:
     
     def main(op = 0):
     
-        print_centralizado('\n------------------------------')
-        print_centralizado('FolderOrganizer')
-        print_centralizado('------------------------------')
-        print_centralizado('1 - Organizar')
-        print_centralizado('2 - Sair')
-        print_centralizado('------------------------------\n')
+        print_centered('\n------------------------------')
+        print_centered('FolderOrganizer')
+        print_centered('------------------------------')
+        print_centered('1 - Organizar')
+        print_centered('2 - Sair')
+        print_centered('------------------------------\n')
         
-        opcao = input('\nOpção (Somente números): ')
+        option = input('\nOpção (Somente números): ')
         
         os.system('cls' if os.name == 'nt' else 'clear')
         
-        if (opcao != '1') and (opcao != '2'):
+        if (option != '1') and (option != '2'):
 
             print('\n[AVISO] Opção inválida, digite novamente\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
             main(op = 0)
         
-        match opcao:
+        match option:
             
             case '1':
                 
-                caminho_pasta = input('Caminho da pasta: ')
+                folder_path = input('Caminho da pasta: ')
                 os.system('cls' if os.name == 'nt' else 'clear')
                 
-                pasta = Path.home() / f'{caminho_pasta}'
+                destination_folder = Path.home() / f'{folder_path}'
                 
                 folders = {
                     
@@ -95,11 +95,13 @@ try:
                     
                 }
                 
-                
+                for name in folders:
+                    
+                    ()
                 
             case '2':
                 
-                print_centralizado('\nSaindo...\n')
+                print_centered('\nSaindo...\n')
                 barra_carregamento()
                 os.system('cls' if os.name == 'nt' else 'clear')
                 sys.exit()
@@ -110,9 +112,9 @@ except Exception as error:
     
     os.system('cls' if os.name == 'nt' else 'clear')
     
-    print_centralizado('\nOps! Ocorreu um erro inesperado ao processar sua solicitação.\n')
-    print_centralizado('Entre em contato com o suporte técnico, informando nome do erro.')
-    print_centralizado(f'\nErro: {error} ({type(error).__name__})\n')
+    print_centered('\nOps! Ocorreu um erro inesperado ao processar sua solicitação.\n')
+    print_centered('Entre em contato com o suporte técnico, informando nome do erro.')
+    print_centered(f'\nErro: {error} ({type(error).__name__})\n')
 
-    input_centralizado('Clique em qualquer tecla para continuar...')
+    input_centered('Clique em qualquer tecla para continuar...')
     os.system('cls' if os.name == 'nt' else 'clear')
