@@ -15,7 +15,7 @@ A terminal-based file organizer written in Python. It scans a folder and moves e
 
 <br>
 
-## Categories
+## Categories 📁
 
 <br>
 
@@ -37,4 +37,4 @@ Python 3.15 or higher, as the code uses lazy imports (PEP 810) and match/case.
 
 <br>
 
-## 
+## Execution
