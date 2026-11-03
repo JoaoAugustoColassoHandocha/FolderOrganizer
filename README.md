@@ -7,10 +7,15 @@ A terminal-based file organizer written in Python. It scans a folder and moves e
 ## Features ✨
 
 * Centralized terminal interface, featuring an interactive menu and an animated loading bar;
+
 * Automatic organization by file type;
+
 * Automatic creation of the necessary subfolders;
+
 * Overwrite protection: if a file with the same name already exists at the destination, it is ignored;
+
 * Error handling with a user-friendly message;
+
 * Compatible with Windows, Linux, and macOS (screen clearing via cls/clear).
 
 <br>
@@ -44,3 +49,29 @@ git clone https://github.com/seu-usuario/FolderOrganizer.git
 cd FolderOrganizer
 python folder_organizer.py
 ~~~
+
+* In the menu, enter 1 to organize or 2 to exit.
+
+* Provide the folder path relative to your user folder (for example, Downloads or Documents/Projects).
+
+* Wait for the loading bar. The files will be moved into their corresponding subfolders.
+
+<br>
+
+## How it works ⚙️
+
+* Defines a dictionary that maps each category to its corresponding file extensions.
+
+* Creates subfolders within the chosen directory (using `mkdir(exist_ok=True)`).
+
+* Iterates through the items in the folder using `Path.iterdir()` and compares each file's extension (converted to lowercase) against the defined categories.
+
+* Moves the file using `shutil.move`, provided that no other file with the same name already exists at the destination.
+
+<br>
+
+## Technologies 🛠️
+
+* Python 3
+
+* Standard libraries: pathlib, shutil, os, sys, time, builtins
