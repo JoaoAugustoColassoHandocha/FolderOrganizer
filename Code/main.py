@@ -99,6 +99,18 @@ try:
                     
                     (destination_folder / name).mkdir(exist_ok = True)
                 
+                for file in list(destination_folder.iterdir()):
+                    
+                    ext = file.suffix.lower()
+                    
+                    for name, exts in folders.items():
+                        
+                        target = destination_folder / name / file.name
+                        
+                        if not target.exists():
+                            
+                            shutil.move(file, target)
+                
             case '2':
                 
                 print_centered('\nSaindo...\n')
