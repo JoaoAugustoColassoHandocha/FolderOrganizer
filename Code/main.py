@@ -81,6 +81,14 @@ try:
                 
                 pasta = Path.home() / f'{caminho_pasta}'
                 
+                folders = {
+                    
+                    'Imagens': ['.jpg', '.jpeg', '.png', '.webp', '.gif', '.tiff', '.tif', '.bmp', '.raw', '.svg', '.ai', '.eps', '.cdr'],
+                    'Documentos': ['.pdf', '.txt', '.doc', '.docx', '.odt', '.rtf', '.xlsx', '.xls', '.pptx', '.htm', '.html', 'dotx', '.docm', '.dotm'],
+                    'Vídeos': []
+                    
+                }
+                
             case '2':
                 
                 print_centralizado('\nSaindo...\n')
