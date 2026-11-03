@@ -41,6 +41,16 @@ try:
             sys.stdout.write('\r' + texto.center(largura - 1))
             sys.stdout.flush()
             time.sleep(atraso)
+            
+    os.system('cls' if os.name == 'nt' else 'clear')
+        
+    print('\n------------------------------')
+    print('Bem Vindo ao SolarisBank')
+    print('------------------------------\n')
+        
+    barra_carregamento()
+            
+    os.system('cls' if os.name == 'nt' else 'clear')
     
     
 except Exception as error:
