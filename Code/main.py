@@ -44,9 +44,9 @@ try:
             
     os.system('cls' if os.name == 'nt' else 'clear')
         
-    print('\n------------------------------')
-    print('Bem Vindo ao SolarisBank')
-    print('------------------------------\n')
+    print_centralizado('\n------------------------------')
+    print_centralizado('Bem Vindo ao SolarisBank')
+    print_centralizado('------------------------------\n')
         
     barra_carregamento()
             
